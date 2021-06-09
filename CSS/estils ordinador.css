@@ -1,0 +1,244 @@
+/*ordinador*/
+@media only screen and (min-width: 425px){
+  body{
+    background-image: url("../IMG/fonfo logo.png");
+    margin: 0px;
+    padding: 0px;
+    }
+    video{
+      width: 40%;
+      height: 60%;
+      margin-top:3px;
+      margin-left:30%;
+
+    }
+    .imatges{
+      margin-top: 85px;
+      width: 50%;
+      margin-left: 25%;
+      border: 15px solid black;
+      border-radius: 10%;
+    }
+
+    .imatges img{
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+    }
+    #gif{
+      margin-top: 5%;
+      width:15%;
+      margin-left: 45%;
+    }
+    #portada{
+      margin-top: 20px;
+      border: 10px solid black;
+      border-radius: 15%;
+      opacity: 100%;
+      margin-left: 35%;
+    }
+
+    #cabeza{
+      font-family: 'Mate SC', serif;
+      padding: 0;
+      line-height: 5px;
+      margin-left:5%;
+      font-size: 30px;
+      }
+      #pequeño{
+        height: 4%;
+        width: 15%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 2px solid black;
+
+      }
+    .text{
+      height: 35px;
+      width: 80%;
+      background-color: white;
+      margin: 0 auto;
+      opacity: 95%;
+      border-radius: 15px;
+      text-align: center;
+      font-family: 'Comic Neue', cursive;
+      border: 2px solid black;
+      }
+    #ediciones{
+      margin-top: 90px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+    .cabezera{
+      width: 100%;
+      height: 60px;
+      background-color: #ffff;
+      border-bottom:2px solid black;
+      padding: 0;
+      margin-top: 0;
+      position: fixed;
+      top:0;
+      left:0;
+    }
+    #ENVIAR{
+      height: 20px;
+      width: 55px;
+      background-color: white;
+      border: 1px solid #7DA5E0;
+      padding: 10px;
+      margin: 10px;
+      font-family: Arial, Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .pregresp {
+      background-color: white;
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+    .pregunta {
+    color: #7DA5E0;
+    }
+
+    .respuestas {
+    color: #000000;
+    }
+
+    #resposta{
+      background-color: white;
+      height: 65px;
+      width: 200px;
+      margin-top: 80px;
+      margin-left: 40%;
+      border-radius: 15px;
+      text-align: center;
+      font-family: 'Comic Neue', cursive;
+      border: 2px solid black;
+    }
+    #atras{
+      background-color: white;
+      height: 15px;
+      width: 60px;
+      margin-top: 30px;
+      margin-left: 45%;
+      border-radius: 15px;
+      text-align: center;
+      font-family: 'Comic Neue', cursive;
+      border: 2px solid black;
+    }
+    /*menu no desplegable*/
+    .lista{
+      text
+      margin-top: 10px;
+      width: 80px;
+      height:50px;
+      opacity: 80%;
+      display: inline;
+      margin-left: 5px
+    }
+
+    #contenedor{
+      font-family: 'Mate SC', serif;
+      text-align: center;
+      margin-top: 60px;
+      background-color: white;
+      height:20px;
+      width: 250px;
+      opacity:100%;
+      line-height: 20px;
+      border: 2px solid black;
+      font-size: 20px;
+    }
+    input#abrir-cerrar {
+            visibility:hidden;
+            position: absolute;
+        }
+           .abrir, .cerrar {
+
+                   position:absolute;
+                   top:0;
+                   right:0;
+                   bottom:0;
+                   left:80%;
+
+               }
+
+a{
+  text-decoration: none;
+  color:black;
+  background-color: none;
+  transition: background-color .5s;
+}
+a:hover{
+  background-color: gold;
+}
+
+
+
+    /*carrusel*/
+    .container{
+      margin: auto;
+      background-color: white;
+      width: 600px;
+      padding: 0;
+      margin-top: 80px;
+      border-radius: 15px;
+    }
+    ul, li{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    ul.slider{
+      position: relative;
+      width: 600px;
+      height: 250px;
+    }
+    ul.slider li{
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      background-color: white;
+      transition: 5s;
+    }
+    ul.slider li img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+
+    }
+    ul.slider li:first-child{
+      opacity: 1;
+    }
+    ul.slider li:target{
+      opacity: 1;
+    }
+    .menu{
+      text-align: center;
+      margin: 45px
+    }
+    .menu li{
+      display: inline-block;
+      text-align: center;
+    }
+    .menu li a{
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      background-color: grey;
+      padding: 0;
+      margin-top: 15px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      border-radius: 100%;
+    }
+    }
